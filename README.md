@@ -68,3 +68,20 @@ All screenshots are from my own lab environment and document:
 * How IT support teams manage incidents in real environments
 * The importance of prioritization and escalation
 * Proper documentation of troubleshooting steps
+
+## 🚨 Ticket Lifecycle – Banking Outage
+
+### 1. Ticket Created
+![Created](screenshots/tickets/01-created.png)
+
+### 2. Priority Set
+![Priority](screenshots/tickets/03-priority.png)
+
+### 3. Escalation
+![Escalation](screenshots/tickets/05-escalated.png)
+
+### 4. Resolution
+![Resolved](screenshots/tickets/07-resolved.png)
+
+### 5. Closed
+![Closed](screenshots/tickets/08-closed.png)
