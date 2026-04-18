@@ -49,55 +49,27 @@ Deployed and configured an osTicket help desk system in Azure and managed the fu
 
 ### 🟢 Ticket Created
 
-![Ticket Created](screenshots/tickets/01-created.png)
+![Ticket Created](screenshots/tickets/tickets/01-ticket-created-banking-outage.png)
 
 ### 🔴 Priority Escalated to Emergency
 
-![Priority](screenshots/tickets/03-priority.png)
+![Priority](screenshots/tickets/tickets/03-priority-updated.png)
 
 ### ⏱️ SLA Updated
 
-![SLA](screenshots/tickets/04-sla.png)
+![SLA](screenshots/tickets/tickets/04-sla-set.png)
 
 ### 🔁 Escalated to SysAdmins
 
-![Escalation](screenshots/tickets/05-escalated.png)
+![Escalation](screenshots/tickets/tickets/06-ticket-escalated.png)
 
 ### 🛠️ Issue Resolved
 
-![Resolved](screenshots/tickets/07-resolved.png)
+![Resolved](screenshots/tickets/tickets/08-ticket-resolution.png)
 
 ### ✅ Ticket Closed
 
-![Closed](screenshots/tickets/08-closed.png)
-
----
-
-## ⚙️ Additional Scenario: Adobe Reader Issue
-
-### 🟢 Ticket Created
-
-![Adobe Created](screenshots/tickets/09-adobe-created.png)
-
-### 📝 Investigation
-
-![Adobe Investigation](screenshots/tickets/10-adobe-investigation.png)
-
-### 🔺 Priority Increased
-
-![Adobe Priority](screenshots/tickets/11-adobe-priority-high.png)
-
-### ⏱️ SLA Updated
-
-![Adobe SLA](screenshots/tickets/12-adobe-sla.png)
-
-### 🔍 Root Cause Identified
-
-![Adobe Root Cause](screenshots/tickets/13-adobe-root-cause.png)
-
-### ✅ Ticket Closed
-
-![Adobe Closed](screenshots/tickets/14-adobe-closed.png)
+![Closed](screenshots/tickets/tickets/09-ticket-closed.png)
 
 ---
 
