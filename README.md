@@ -1,9 +1,9 @@
 # 🛠️ IT Support Portfolio – Help Desk, Networking & System Administration
 
 ## 📌 Introduction
-I am an aspiring IT Support Specialist building hands-on experience through real-world lab environments that simulate enterprise systems. My focus is on troubleshooting, system administration, and networking—developing the practical skills required to support users and maintain IT infrastructure in a professional setting.
+I am an aspiring IT Support Specialist building hands-on experience through real-world lab environments that simulate enterprise systems. My focus is on troubleshooting, system administration, networking, and user support—developing the practical skills required to operate in a professional IT environment.
 
-This portfolio demonstrates my ability to diagnose issues, manage systems, and document solutions with a structured, support-oriented approach.
+This portfolio demonstrates my ability to diagnose issues, manage systems, enforce security controls, and document solutions using a structured, support-oriented approach.
 
 ---
 
@@ -11,6 +11,7 @@ This portfolio demonstrates my ability to diagnose issues, manage systems, and d
 - Active Directory (User & Group Management)
 - Group Policy (GPO) Configuration
 - DNS (A Records, CNAME, DNS Cache Troubleshooting)
+- File Shares & NTFS Permissions
 - Ticketing Systems (osTicket)
 - Networking Fundamentals (TCP/IP, DNS, Connectivity)
 - Remote Desktop (RDP)
@@ -28,9 +29,9 @@ Built and configured a complete Active Directory environment in Microsoft Azure.
 
 **Key Achievements:**
 - Deployed a fully functional Domain Controller in a cloud environment  
-- Created and organized **multiple Organizational Units (OUs)** for structured user management  
+- Created and organized **multiple Organizational Units (OUs)**  
 - Managed **10+ user accounts and group assignments**  
-- Successfully joined client machines to the domain and verified connectivity  
+- Joined client machines to the domain and verified connectivity  
 - Configured administrative permissions and access control  
 
 ---
@@ -41,25 +42,39 @@ Built and configured a complete Active Directory environment in Microsoft Azure.
 Focused on DNS resolution, caching behavior, and troubleshooting name resolution issues.
 
 **Key Achievements:**
-- Created and modified DNS A records to simulate real-world server resolution  
-- Configured CNAME records to redirect domain traffic  
+- Created and modified DNS A records to simulate real-world scenarios  
+- Configured CNAME records for domain redirection  
 - Diagnosed and resolved **multiple DNS resolution failures**  
-- Demonstrated understanding of DNS caching and its impact on system behavior  
-- Used command-line tools (`ipconfig`, `nslookup`) to validate and troubleshoot results  
+- Demonstrated understanding of DNS caching behavior  
+- Used command-line tools (`ipconfig`, `nslookup`) for troubleshooting  
 
 ---
 
 ### 🔹 Active Directory User Management & Security Lab
 📁 `active-directory-lab/` *(continued)*
 
-Simulated real-world user account management and security scenarios.
+Simulated real-world account management and security scenarios.
 
 **Key Achievements:**
 - Configured account lockout policies using Group Policy  
-- Simulated **multiple failed login attempts** to trigger security controls  
-- Unlocked user accounts and restored access following lockouts  
+- Simulated **multiple failed login attempts** to trigger lockouts  
+- Unlocked accounts and restored access  
 - Analyzed authentication events using Event Viewer  
-- Applied policy updates across systems using `gpupdate /force`  
+- Applied policy updates using `gpupdate /force`  
+
+---
+
+### 🔹 Network File Shares & Permissions Lab
+📁 `file-share-permissions-lab/`
+
+Configured shared folders and managed access using NTFS permissions and security groups.
+
+**Key Achievements:**
+- Created **multiple shared folders with varying access levels**  
+- Configured read, write, and restricted access permissions  
+- Tested access from client machines to validate security controls  
+- Implemented role-based access using **Active Directory security groups**  
+- Troubleshot access denied issues and verified resolution  
 
 ---
 
@@ -72,7 +87,7 @@ Simulated a help desk environment managing support tickets and user issues.
 - Managed **multiple simulated support tickets** from intake to resolution  
 - Prioritized issues based on severity and SLA requirements  
 - Troubleshot user issues including login errors, software problems, and access issues  
-- Documented resolutions clearly to simulate internal knowledge base updates  
+- Documented solutions to simulate internal knowledge base articles  
 - Practiced escalation of complex issues following support workflows  
 
 ---
@@ -85,7 +100,7 @@ Simulated a help desk environment managing support tickets and user issues.
 ---
 
 ## 🎯 Career Goal
-Aspiring IT Support Specialist with hands-on experience in Active Directory, networking, and troubleshooting. Actively developing real-world skills to transition into a help desk or IT support role, with long-term growth into system administration and cloud engineering.
+Aspiring IT Support Specialist with hands-on experience in Active Directory, networking, file permissions, and troubleshooting. Actively building real-world skills to transition into a help desk or IT support role, with long-term growth into system administration and cloud engineering.
 
 ---
 
@@ -94,6 +109,7 @@ it-helpdesk-labs/
 │
 ├── active-directory-lab/
 ├── dns-lab/
+├── file-share-permissions-lab/
 ├── osticket-lab/
 └── README.md
 
