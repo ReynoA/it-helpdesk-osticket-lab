@@ -1,109 +1,102 @@
-# 👋 Hi, I'm Angel
+# 🛠️ IT Support Portfolio – Help Desk, Networking & System Administration
 
-I’m an aspiring IT Support Specialist actively building hands-on experience with real-world systems, including Active Directory, networking, and help desk operations. I’ve developed and documented practical labs that simulate common IT scenarios such as user account management, system troubleshooting, and security policy enforcement.
+## 📌 Introduction
+I am an aspiring IT Support Specialist building hands-on experience through real-world lab environments that simulate enterprise systems. My focus is on troubleshooting, system administration, and networking—developing the practical skills required to support users and maintain IT infrastructure in a professional setting.
 
-My focus is on developing job-ready skills by working through real environments — not just theory — and documenting each step as if I were operating in a production setting.
-
----
-
-# 🛠️ IT Support Portfolio – Help Desk, Networking & Active Directory
-
-## 📌 Overview
-
-This repository showcases hands-on IT labs designed to mirror real-world support scenarios. Each project demonstrates practical skills used in help desk and junior system administrator roles, including troubleshooting, user management, and system configuration.
+This portfolio demonstrates my ability to diagnose issues, manage systems, and document solutions with a structured, support-oriented approach.
 
 ---
 
-## 💼 Projects
-
-### 🎫 Help Desk Ticket Lab
-
-Simulated IT support tickets and real-world troubleshooting workflows.
-
-**Key Skills:**
-
-* Ticket documentation and resolution
-* Troubleshooting software and connectivity issues
-* Customer-focused problem solving
-
-📂 Folder: `/osticket-lab`
+## 🧰 Skills Demonstrated
+- Active Directory (User & Group Management)
+- Group Policy (GPO) Configuration
+- DNS (A Records, CNAME, DNS Cache Troubleshooting)
+- Ticketing Systems (osTicket)
+- Networking Fundamentals (TCP/IP, DNS, Connectivity)
+- Remote Desktop (RDP)
+- Troubleshooting & Root Cause Analysis
+- Technical Documentation & Knowledge Base Writing
 
 ---
 
-### 🏢 Active Directory Lab
+## 📂 Projects
 
-Built a complete Active Directory environment in Microsoft Azure.
+### 🔹 Active Directory Lab
+📁 `active-directory-lab/`
 
-**Key Skills:**
+Built and configured a complete Active Directory environment in Microsoft Azure.
 
-* Domain Controller setup (Windows Server)
-* User and group management
-* Organizational Units (OUs)
-* Domain joining (client machines)
-
-📂 Folder: `/active-directory-lab`
-
----
-
-### 👤 Active Directory User Management & Security Lab
-
-Focused on user account administration and enforcing security policies using Group Policy.
-
-**Key Skills:**
-
-* Account lockout policy configuration
-* Group Policy Management (GPO)
-* Unlocking and disabling user accounts
-* Troubleshooting login issues
-* Security log analysis using Event Viewer
-
-**Highlights:**
-
-* Simulated failed login attempts to trigger account lockout
-* Managed user account recovery (unlock/reset)
-* Verified authentication events using Windows Security logs
-
-📂 Folder: `/active-directory-user-management-lab`
+**Key Achievements:**
+- Deployed a fully functional Domain Controller in a cloud environment  
+- Created and organized **multiple Organizational Units (OUs)** for structured user management  
+- Managed **10+ user accounts and group assignments**  
+- Successfully joined client machines to the domain and verified connectivity  
+- Configured administrative permissions and access control  
 
 ---
 
-## 🛠️ Technologies Used
+### 🔹 DNS Lab
+📁 `dns-lab/`
 
-* Microsoft Azure
-* Windows Server
-* Active Directory Domain Services (AD DS)
-* Group Policy Management
-* Remote Desktop Protocol (RDP)
-* osTicket (Help Desk System)
+Focused on DNS resolution, caching behavior, and troubleshooting name resolution issues.
 
----
-
-## 🎯 Skills Demonstrated
-
-* Active Directory Administration
-* Identity & Access Management (IAM)
-* Group Policy Configuration
-* Troubleshooting & Root Cause Analysis
-* User Account Lifecycle Management
-* Security Monitoring & Log Analysis
+**Key Achievements:**
+- Created and modified DNS A records to simulate real-world server resolution  
+- Configured CNAME records to redirect domain traffic  
+- Diagnosed and resolved **multiple DNS resolution failures**  
+- Demonstrated understanding of DNS caching and its impact on system behavior  
+- Used command-line tools (`ipconfig`, `nslookup`) to validate and troubleshoot results  
 
 ---
 
-## 📸 Documentation
+### 🔹 Active Directory User Management & Security Lab
+📁 `active-directory-lab/` *(continued)*
 
-Each project includes:
+Simulated real-world user account management and security scenarios.
 
-* Step-by-step configuration walkthroughs
-* Screenshots of key actions and results
-* Simulated real-world troubleshooting scenarios
+**Key Achievements:**
+- Configured account lockout policies using Group Policy  
+- Simulated **multiple failed login attempts** to trigger security controls  
+- Unlocked user accounts and restored access following lockouts  
+- Analyzed authentication events using Event Viewer  
+- Applied policy updates across systems using `gpupdate /force`  
 
 ---
 
-## 🚀 Goals
+### 🔹 IT Support Ticketing Lab (osTicket)
+📁 `osticket-lab/`
 
-* Transition into an IT Support / Help Desk role
-* Continue building hands-on experience with enterprise tools
-* Expand into networking and system administration
+Simulated a help desk environment managing support tickets and user issues.
+
+**Key Achievements:**
+- Managed **multiple simulated support tickets** from intake to resolution  
+- Prioritized issues based on severity and SLA requirements  
+- Troubleshot user issues including login errors, software problems, and access issues  
+- Documented resolutions clearly to simulate internal knowledge base updates  
+- Practiced escalation of complex issues following support workflows  
+
+---
+
+## 🚀 Projects in Progress
+- Advanced Active Directory scenarios (Group Policy, permissions)
+- Networking labs (DHCP, VPN, advanced troubleshooting)
+- Additional ticketing workflows and automation concepts
+
+---
+
+## 🎯 Career Goal
+Aspiring IT Support Specialist with hands-on experience in Active Directory, networking, and troubleshooting. Actively developing real-world skills to transition into a help desk or IT support role, with long-term growth into system administration and cloud engineering.
+
+---
+
+## 📁 Repository Structure
+it-helpdesk-labs/
+│
+├── active-directory-lab/
+├── dns-lab/
+├── osticket-lab/
+└── README.md
+
 
 ---
 
